@@ -662,5 +662,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['numReservas'])) {
             <li><a href="Ej2.php">Ejercicio 2</a></li>
             <li><a href="Ej3.php">Ejercicio 3</a></li>
         </ul>
+    </nav>
 </footer>
 </html>
