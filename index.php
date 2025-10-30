@@ -1,0 +1,21 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPD4</title>
+</head>
+<body>
+    <h1>Inicio</h1>
+    <p>Esta es la página principal de EPD4.</p>
+    <nav>
+        <ul>
+            <li><a href="Ej1.php">Ejercicio 1</a></li>
+            <li><a href="Ej2.php">Ejercicio 2</a></li>
+            <li><a href="Ej3.php">Ejercicio 3</a></li>
+        </ul>
+</body>
+</html>
