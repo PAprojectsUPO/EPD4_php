@@ -624,7 +624,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <footer>
     <nav>
         <ul>
-            <li><a href="index.php">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="Ej1.php">Ejercicio 1</a></li>
             <li><a href="Ej2.php">Ejercicio 2</a></li>
             <li><a href="Ej3.php">Ejercicio 3</a></li>
