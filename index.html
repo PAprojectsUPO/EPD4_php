@@ -5,8 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPD4</title>
+    <style>
+        
+        * { /* Reseteo de márgenes y paddings para todos los elementos */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .contenido {
+            display: flex; /* Usar flexbox para centrar */
+            flex-direction: column; /* Apilar elementos verticalmente */
+            align-items: center; /* Centrar horizontalmente */
+            justify-content: center; /* Centrar verticalmente dentro de la pantalla */
+            text-align: center; /* Centrar texto */
+            min-height: 100vh; /* Asegura que el contenido ocupe al menos toda la altura de la pantalla */
+            padding: 1rem; /* Espaciado interno */
+            gap: 1rem; /* Espacio entre elementos hijos */
+        }
+
+        nav > ul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0 0 0;
+            gap: 0.5rem;
+        }
+    </style>
 </head>
 <body>
+    <header class="contenido">
     <h1>Inicio</h1>
     <p>Esta es la página principal de EPD4.</p>
     <nav>
@@ -16,5 +46,6 @@
             <li><a href="Ej3.php">Ejercicio 3</a></li>
         </ul>
     </nav>
+    </header>
 </body>
 </html>

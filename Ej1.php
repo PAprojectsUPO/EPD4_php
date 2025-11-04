@@ -654,9 +654,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['numReservas'])) {
         <?php endif; ?>
     </div>
 </body>
-<footer>
-    <nav>
-        <ul>
+<footer style="padding: 10px; margin-top: 20px;">
+    <nav style="justify-content: center; text-align: center;">
+        <ul style="padding: 0; margin: 0; display: inline-flex; gap: 15px; list-style: none;">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Ej1.php">Ejercicio 1</a></li>
             <li><a href="Ej2.php">Ejercicio 2</a></li>
